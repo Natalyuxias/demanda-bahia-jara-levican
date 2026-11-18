@@ -15,6 +15,7 @@ La comparación utiliza la misma base y metodología en dos representaciones esp
 | `04_resultados_zonificacion_localidades` | Resultados por localidades y sectores |
 | `05_verificacion` | Balances, cobertura de escenarios, límites y controles de exportación |
 | `06_codigo` | Cálculo, exportación e instrucciones de reproducción |
+| `07_datos_procesados` | Comparaciones, detalle procesado agregado, aforos y factores sin registros individuales |
 | `privado` | Instrucciones para los insumos excluidos de Git; no contiene microdatos |
 
 ## Lectura de resultados
@@ -46,3 +47,5 @@ Esta versión está preparada para un repositorio público de resultados OD agre
 Los insumos privados están inventariados mediante nombres y SHA-256. El código de exportación permite reconstruir las tablas a partir del detalle validado; la reproducción de la estimación requiere restituir las fuentes privadas. El visor geográfico no forma parte de esta versión.
 
 El valor del tiempo de carga vigente es **12.954 CLP por hora de camión** (ocupación 1). Los demás segmentos conservan 10.047 CLP por persona-hora. La configuración específica está en `00_fuentes/referencia/config_valor_tiempo_por_segmento.json`.
+
+Las comparaciones y los datos procesados publicables se incluyen en `07_datos_procesados`. Solo se excluyen los originales de las consultoras, las encuestas individuales, sus identificadores y coordenadas, y los intermedios que conservan esos campos.

@@ -1,0 +1,31 @@
+{
+  "estado": "correcto",
+  "verificaciones": {
+    "comparacion_anual_total_fuentes_mismas_claves": true,
+    "comparacion_anual_total_fuentes_misma_referencia": true,
+    "comparacion_anual_total_fuentes_ND_preservados": true,
+    "comparacion_anual_por_fuente_mismas_claves": true,
+    "comparacion_anual_por_fuente_misma_referencia": true,
+    "comparacion_anual_por_fuente_ND_preservados": true,
+    "comparacion_estacional_total_fuentes_mismas_claves": true,
+    "comparacion_estacional_total_fuentes_misma_referencia": true,
+    "comparacion_estacional_total_fuentes_ND_preservados": true,
+    "comparacion_estacional_por_fuente_mismas_claves": true,
+    "comparacion_estacional_por_fuente_misma_referencia": true,
+    "comparacion_estacional_por_fuente_ND_preservados": true
+  },
+  "filas_por_tabla": {
+    "comparacion_anual_total_fuentes": 3072,
+    "comparacion_anual_por_fuente": 3840,
+    "comparacion_estacional_total_fuentes": 8832,
+    "comparacion_estacional_por_fuente": 11136
+  },
+  "filas_hojas_Excel": {
+    "Guía de lectura": 7,
+    "Central anual total fuentes": 128,
+    "Anual todos los casos": 3072,
+    "Anual por fuente": 3840,
+    "Central estacional": 368
+  },
+  "alcance": "Comparaciones agregadas de resultados ya publicados; diferencia localidades menos zonas anteriores, sin sustituir nulos por cero y sin identificadores individuales."
+}

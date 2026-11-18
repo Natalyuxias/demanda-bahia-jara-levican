@@ -24,3 +24,12 @@ python 06_codigo/verificar_entrega.py
 ```
 
 El verificador revisa la integridad de los libros, las columnas, las exclusiones de datos privados y los controles de agregación; actualiza el inventario de archivos. La validación se refiere a la distribución pública de resultados agregados. No certifica representatividad estadística, precisión de celdas con base reducida ni cobertura completa del mercado.
+
+## Comparaciones y datos procesados publicables
+
+```bash
+python 06_codigo/exportar_comparaciones.py --salida .
+python 06_codigo/exportar_datos_procesados.py --entrada /ruta/privada/comparacion_metodologia_original.csv.gz --referencias /ruta/privada/referencia --salida .
+```
+
+La primera orden compara tablas públicas existentes. La segunda publica agregaciones y antecedentes de procesamiento, conservando fuera del repositorio los registros individuales y las fuentes originales.

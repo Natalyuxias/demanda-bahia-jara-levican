@@ -1,0 +1,20 @@
+{
+  "estado": "correcto",
+  "verificaciones": {
+    "totales_de_todas_las_cantidades_conservados": true,
+    "sin_identificadores_individuales": true,
+    "sin_coordenadas": true,
+    "sin_infinito": true,
+    "valores_sin_patrones_ID_encuesta": true,
+    "headers_sin_enlaces_a_filas_individuales": true,
+    "todos_los_archivos_nuevos_sin_campos_individuales": true
+  },
+  "filas_procesadas_agregadas": 117360,
+  "filas_estratos_citra": 265,
+  "filas_estratos_aristo": 40,
+  "filas_od_observado_citra": 25,
+  "filas_atributos_viales": 310,
+  "alcance": "Resultados por OD y escenario y aforos por estrato. No incluye encuestas individuales, identificadores, coordenadas ni originales. Los promedios de costos/probabilidad son descriptivos; no reemplazan el cálculo por componente.",
+  "csv_revisados": 17,
+  "libros_nuevos_integridad_correcta": 2
+}

@@ -1,0 +1,60 @@
+﻿campo,definicion
+zonificacion,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+alternativa,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+perfil_ARISTO,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+fuente,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+codigo_origen,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+nombre_origen,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+codigo_destino,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+nombre_destino,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+segmento,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+unidad,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+temporada,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+sentido,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+anio,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+escenario_PIB,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+tasa_PIB_anual,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+elasticidad_demanda_PIB,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+escenario_captacion,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+escenario_induccion_costo,"Dimensión de zonificación, OD, fuente, año, segmento o escenario. Las situaciones y escenarios son alternativos y no se suman."
+Q_referencia,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_tierra_SBO,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_actual_SBO,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_existente_nuevo,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_desviada_tierra,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_desviada_actual,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_tierra_CP_existente,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_actual_CP_existente,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_inducida_incremental,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_inducida_tierra,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_inducida_actual,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_inducida_nuevo,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_tierra_CP_total,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_actual_CP_total,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_nuevo_CP_total,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_residual_existente,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+D_base_fuera_soporte_induccion,"Suma conservando faltantes: referencia, SBO, transferencia, inducción o demanda de la alternativa. Definición detallada en la metodología."
+componentes_del_modelo,Conteo de componentes del modelo tras agregación; no representa cantidad de encuestas ni vehículos.
+componentes_sin_referencia,Conteo de componentes del modelo tras agregación; no representa cantidad de encuestas ni vehículos.
+promedio_ponderado_CG_origen_SBO,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_CG_origen_SBO,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_CG_nuevo_CP,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_CG_nuevo_CP,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_CG_min_SBO,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_CG_min_SBO,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_CG_min_CP,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_CG_min_CP,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_p_nuevo,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_p_nuevo,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_delta_costo_tierra,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_delta_costo_tierra,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_delta_costo_actual,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_delta_costo_actual,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_delta_costo_proyecto,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_delta_costo_proyecto,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_tiempo_CAM_tierra_h,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_tiempo_CAM_tierra_h,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_tiempo_CAM_actual_h,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_tiempo_CAM_actual_h,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.
+promedio_ponderado_tiempo_CAM_proyecto_h,Promedio descriptivo ponderado por la demanda de referencia positiva con valor conocido. No sustituye el cálculo de captación e inducción por componente.
+referencia_usada_para_promedio_tiempo_CAM_proyecto_h,Denominador de referencia conocido utilizado para el promedio correspondiente. No sumar entre variables.

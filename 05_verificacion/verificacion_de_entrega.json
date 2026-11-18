@@ -15,10 +15,13 @@
     "03_resultados_zonificacion_anterior_cinco_libros_completos": true,
     "04_resultados_zonificacion_localidades_resumen_principal": true,
     "04_resultados_zonificacion_localidades_cinco_libros_completos": true,
-    "Git_excluye_datos_privados": true
+    "Git_excluye_datos_privados": true,
+    "tablas_previas_conservadas": true,
+    "procesados_agregados_verificados": true,
+    "comparaciones_agregadas_verificadas": true
   },
-  "libros_verificados": 13,
-  "CSV_verificados": 38,
+  "libros_verificados": 15,
+  "CSV_verificados": 55,
   "maximo_archivo_bytes": 20279534,
   "campos_prohibidos_detectados": [],
   "alcance": "Comprueba integridad de libros, columnas, estructura, exclusión de insumos y controles de agregación. Las matrices OD pueden contener desagregaciones de baja frecuencia. Esta validación no certifica precisión estadística ni completa sensibilidades pendientes."
