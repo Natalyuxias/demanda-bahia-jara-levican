@@ -1,0 +1,283 @@
+{
+  "estado": "correcto",
+  "alcance": "Auditoría de completitud del conjunto de escenarios configurados, soporte temporal/direccional original y resultados numéricos; no certifica demanda total ni capacidad operativa. No se recalcularon rutas, expansión ni proyecciones.",
+  "verificaciones": {
+    "720_estados_previstos_completos": true,
+    "7200_combinaciones_fuente_clase_completas": true,
+    "temporadas_sentidos_iguales_al_soporte_original": true,
+    "metricas_requeridas_presentes": true,
+    "sin_infinito_en_resultados": true,
+    "cantidades_no_negativas": true,
+    "probabilidades_entre_cero_y_uno": true,
+    "cada_fila_base_cubre_3PIB_y_4anios": true,
+    "conservacion_demanda_existente": true,
+    "reparto_induccion_conservado": true,
+    "patron_nulos_base_conservado_en_proyecciones": true,
+    "misma_referencia_ambas_zonas_cada_escenario": true,
+    "Excel_principal120": true,
+    "Excel_PIB720": true,
+    "Excel_captacion_induccion7200": true
+  },
+  "estados_esperados": 720,
+  "estados_observados": 720,
+  "combinaciones_estado_fuente_clase_esperadas": 7200,
+  "combinaciones_estado_fuente_clase_observadas": 7200,
+  "soporte_temporada_sentido_esperado": 41040,
+  "soporte_temporada_sentido_observado": 41040,
+  "faltantes_estados": [],
+  "estados_no_previstos": [],
+  "faltantes_fuente_clase": [],
+  "faltantes_soporte_temporal_sentido": [],
+  "dimensiones": {
+    "zonificaciones": [
+      "original",
+      "localidades"
+    ],
+    "alternativas": [
+      "A1",
+      "A2",
+      "A3"
+    ],
+    "anios": [
+      2026,
+      2030,
+      2040,
+      2050
+    ],
+    "perfiles_ARISTO": [
+      "A",
+      "B"
+    ],
+    "PIB": {
+      "conservador": 0.01,
+      "central": 0.02,
+      "alto": 0.03
+    },
+    "casos_captacion_induccion": [
+      {
+        "captacion": "conservador",
+        "elasticidad": "central"
+      },
+      {
+        "captacion": "central",
+        "elasticidad": "menor_induccion"
+      },
+      {
+        "captacion": "central",
+        "elasticidad": "central"
+      },
+      {
+        "captacion": "central",
+        "elasticidad": "mayor_induccion"
+      },
+      {
+        "captacion": "alto",
+        "elasticidad": "central"
+      }
+    ],
+    "fuentes_clases": [
+      [
+        "ARISTO",
+        "BICI"
+      ],
+      [
+        "ARISTO",
+        "BUS_TP"
+      ],
+      [
+        "ARISTO",
+        "CAM"
+      ],
+      [
+        "ARISTO",
+        "MOTO"
+      ],
+      [
+        "ARISTO",
+        "OTRO_PASAJERO"
+      ],
+      [
+        "ARISTO",
+        "PEATON"
+      ],
+      [
+        "ARISTO",
+        "VL"
+      ],
+      [
+        "ARISTO",
+        "VP"
+      ],
+      [
+        "CITRA",
+        "CAM"
+      ],
+      [
+        "CITRA",
+        "VL"
+      ]
+    ]
+  },
+  "cobertura_numerica_ejemplo_A1_localidades_B_central_2026": [
+    {
+      "fuente": "ARISTO",
+      "clase": "BICI",
+      "filas": 4,
+      "filas_referencia_estimable": 4,
+      "filas_demanda_proyecto_estimable": 0,
+      "referencia": 52.0,
+      "demanda_proyecto": null,
+      "referencia_sin_asignacion": 52.0,
+      "porcentaje_referencia_con_asignacion": 0.0
+    },
+    {
+      "fuente": "ARISTO",
+      "clase": "BUS_TP",
+      "filas": 8,
+      "filas_referencia_estimable": 8,
+      "filas_demanda_proyecto_estimable": 0,
+      "referencia": 0.0,
+      "demanda_proyecto": null,
+      "referencia_sin_asignacion": 0.0,
+      "porcentaje_referencia_con_asignacion": null
+    },
+    {
+      "fuente": "ARISTO",
+      "clase": "CAM",
+      "filas": 15,
+      "filas_referencia_estimable": 15,
+      "filas_demanda_proyecto_estimable": 14,
+      "referencia": 3161.571428571429,
+      "demanda_proyecto": 0.0,
+      "referencia_sin_asignacion": 141.4285714285714,
+      "porcentaje_referencia_con_asignacion": 95.52663684424563
+    },
+    {
+      "fuente": "ARISTO",
+      "clase": "MOTO",
+      "filas": 5,
+      "filas_referencia_estimable": 5,
+      "filas_demanda_proyecto_estimable": 0,
+      "referencia": 481.8571428571429,
+      "demanda_proyecto": null,
+      "referencia_sin_asignacion": 481.8571428571429,
+      "porcentaje_referencia_con_asignacion": 0.0
+    },
+    {
+      "fuente": "ARISTO",
+      "clase": "OTRO_PASAJERO",
+      "filas": 1,
+      "filas_referencia_estimable": 0,
+      "filas_demanda_proyecto_estimable": 0,
+      "referencia": null,
+      "demanda_proyecto": null,
+      "referencia_sin_asignacion": null,
+      "porcentaje_referencia_con_asignacion": null
+    },
+    {
+      "fuente": "ARISTO",
+      "clase": "PEATON",
+      "filas": 58,
+      "filas_referencia_estimable": 58,
+      "filas_demanda_proyecto_estimable": 41,
+      "referencia": 51542.428571428565,
+      "demanda_proyecto": 8592.29017875962,
+      "referencia_sin_asignacion": 11521.790789473682,
+      "porcentaje_referencia_con_asignacion": 77.64600716571486
+    },
+    {
+      "fuente": "ARISTO",
+      "clase": "VL",
+      "filas": 43,
+      "filas_referencia_estimable": 43,
+      "filas_demanda_proyecto_estimable": 32,
+      "referencia": 7381.428571428571,
+      "demanda_proyecto": 0.0,
+      "referencia_sin_asignacion": 866.4576213260425,
+      "porcentaje_referencia_con_asignacion": 88.26165405596613
+    },
+    {
+      "fuente": "ARISTO",
+      "clase": "VP",
+      "filas": 14,
+      "filas_referencia_estimable": 14,
+      "filas_demanda_proyecto_estimable": 14,
+      "referencia": 7802.142857142858,
+      "demanda_proyecto": 0.0,
+      "referencia_sin_asignacion": 0.0,
+      "porcentaje_referencia_con_asignacion": 100.0
+    },
+    {
+      "fuente": "CITRA",
+      "clase": "CAM",
+      "filas": 12,
+      "filas_referencia_estimable": 12,
+      "filas_demanda_proyecto_estimable": 12,
+      "referencia": 1673.7857142857138,
+      "demanda_proyecto": 312.17087629151257,
+      "referencia_sin_asignacion": 0.0,
+      "porcentaje_referencia_con_asignacion": 100.0
+    },
+    {
+      "fuente": "CITRA",
+      "clase": "VL",
+      "filas": 64,
+      "filas_referencia_estimable": 48,
+      "filas_demanda_proyecto_estimable": 48,
+      "referencia": 30811.78341869735,
+      "demanda_proyecto": 0.0,
+      "referencia_sin_asignacion": 0.0,
+      "porcentaje_referencia_con_asignacion": 100.0
+    }
+  ],
+  "hojas_Excel": {
+    "Cómo leer los resultados": {
+      "filas": 15,
+      "columnas": 2
+    },
+    "Comparación principal": {
+      "filas": 120,
+      "columnas": 11
+    },
+    "Detalle de la comparación": {
+      "filas": 120,
+      "columnas": 30
+    },
+    "Localidades y sentidos": {
+      "filas": 2424,
+      "columnas": 22
+    },
+    "Zonas anteriores y sentidos": {
+      "filas": 1476,
+      "columnas": 22
+    },
+    "Temporadas y sentidos": {
+      "filas": 1368,
+      "columnas": 16
+    },
+    "Observado CITRA 12 horas": {
+      "filas": 25,
+      "columnas": 10
+    },
+    "Captación e inducción": {
+      "filas": 7200,
+      "columnas": 18
+    },
+    "Sensibilidad del PIB": {
+      "filas": 720,
+      "columnas": 17
+    },
+    "Cobertura espacial": {
+      "filas": 8,
+      "columnas": 5
+    }
+  },
+  "advertencias": [
+    "Los 5 casos heredados varían captación o inducción de a una variable; no se exigió un producto 3×3 que no está configurado.",
+    "La presencia de todas las combinaciones no implica que todas tengan una demanda estimable: nulos y residuales se conservan.",
+    "BUS_TP tiene referencia cero; OTRO_PASAJERO carece de base compatible; MOTO/BICI conservan referencia pero carecen de asignación al proyecto.",
+    "Las temporadas y sentidos se verifican contra el soporte original por clase, no como un producto ficticio de observaciones inexistentes.",
+    "Este control no incluye sensibilidades nuevas de tarifas, VST, frecuencias o geometría que no están configuradas en el cálculo vigente."
+  ],
+  "sha256_datos_descomprimidos": "7096df2975bfcf741adc0052f08018aba1be56e2fbbd3c5db774233bd8913f85"
+}

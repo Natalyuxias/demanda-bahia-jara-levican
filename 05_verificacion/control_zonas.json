@@ -1,0 +1,29 @@
+{
+  "estado": "correcto",
+  "verificaciones": {
+    "55_zonas_anteriores": true,
+    "39_etiquetas_usadas": true,
+    "18_localidades": true,
+    "7_sectores_rurales": true,
+    "codigos_nuevos_unicos": true,
+    "todos_los_codigos_usados_tienen_catalogo": true,
+    "residual_contextual_alineado_con_exportacion": true,
+    "correspondencias_sin_duplicados": true,
+    "sin_coordenadas_ni_identificadores_de_encuesta": true,
+    "Argentina_sin_captacion_modelada": true,
+    "coincidencia_39_codigos_con_matrices_exportadas": true
+  },
+  "zonas_anteriores": 55,
+  "etiquetas_espaciales_modelo": 39,
+  "tipos": {
+    "Localidad": 18,
+    "Referencia territorial conservada": 9,
+    "Sector rural vial": 7,
+    "Referencia internacional sin captación modelada": 3,
+    "Ubicación no identificada": 1,
+    "Componente zonal no desagregado": 1
+  },
+  "correspondencias": 39,
+  "cartografia_exploratoria_no_equivalente_a_catalogo_final": 61,
+  "nota": "SIN_DESAGREGAR conserva el OD anterior y no define una zona única. El catálogo no contiene coordenadas ni frecuencias de encuestas."
+}

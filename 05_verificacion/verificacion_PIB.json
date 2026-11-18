@@ -1,0 +1,96 @@
+{
+  "estado": "correcto",
+  "controles_correctos": 26,
+  "controles_totales": 26,
+  "verificaciones": {
+    "ratio_2050_VL_conservador": true,
+    "ratio_2050_VL_central": true,
+    "ratio_2050_VL_alto": true,
+    "ratio_2050_CAM_conservador": true,
+    "ratio_2050_CAM_central": true,
+    "ratio_2050_CAM_alto": true,
+    "ratio_2050_PEATON_conservador": true,
+    "ratio_2050_PEATON_central": true,
+    "ratio_2050_PEATON_alto": true,
+    "2026_A3_VL_intacto": true,
+    "2026_A3_CAM_intacto": true,
+    "2026_A3_PEATON_intacto": true,
+    "p_nuevo_invariante_PIB_anio": true,
+    "CG_origen_SBO_invariante_PIB_anio": true,
+    "CG_nuevo_CP_invariante_PIB_anio": true,
+    "CG_min_SBO_invariante_PIB_anio": true,
+    "CG_min_CP_invariante_PIB_anio": true,
+    "epsilon_CG_invariante_PIB_anio": true,
+    "participacion_localidad_invariante_PIB_anio": true,
+    "2026_mismas_cantidades_conservador": true,
+    "2026_mismas_cantidades_alto": true,
+    "factor_proyeccion_formula": true,
+    "eta_vehiculos_fija": true,
+    "eta_peatones_fija": true,
+    "buses_sin_crear_flujo": true,
+    "otros_pasajeros_conservan_NULL": true
+  },
+  "ratios_2050_2026": [
+    {
+      "clase": "VL",
+      "escenario_PIB": "conservador",
+      "ratio_2050_2026": 1.3318507663559436,
+      "esperado": 1.3318507663559436
+    },
+    {
+      "clase": "VL",
+      "escenario_PIB": "central",
+      "ratio_2050_2026": 1.768825321559475,
+      "esperado": 1.768825321559475
+    },
+    {
+      "clase": "VL",
+      "escenario_PIB": "alto",
+      "ratio_2050_2026": 2.3426751539284947,
+      "esperado": 2.3426751539284947
+    },
+    {
+      "clase": "CAM",
+      "escenario_PIB": "conservador",
+      "ratio_2050_2026": 1.3318507663559436,
+      "esperado": 1.3318507663559436
+    },
+    {
+      "clase": "CAM",
+      "escenario_PIB": "central",
+      "ratio_2050_2026": 1.7688253215594751,
+      "esperado": 1.768825321559475
+    },
+    {
+      "clase": "CAM",
+      "escenario_PIB": "alto",
+      "ratio_2050_2026": 2.3426751539284947,
+      "esperado": 2.3426751539284947
+    },
+    {
+      "clase": "PEATON",
+      "escenario_PIB": "conservador",
+      "ratio_2050_2026": 1.1540583894915992,
+      "esperado": 1.1540583894915992
+    },
+    {
+      "clase": "PEATON",
+      "escenario_PIB": "central",
+      "ratio_2050_2026": 1.3299719251019833,
+      "esperado": 1.329971925101983
+    },
+    {
+      "clase": "PEATON",
+      "escenario_PIB": "alto",
+      "ratio_2050_2026": 1.5305800057260956,
+      "esperado": 1.5305800057260956
+    }
+  ],
+  "resultado_A3_2026": {
+    "VL": 56.16046951763444,
+    "CAM": 351.2527958594123,
+    "PEATON": 11145.728517349624
+  },
+  "alcance": "Comprobación independiente del CSV final por fórmulas explícitas, no reutiliza las validaciones del generador. Verifica cantidades, parámetros y preservación de base2026; no certifica representatividad ni validez externa de supuestos.",
+  "sha256_datos_descomprimidos": "7096df2975bfcf741adc0052f08018aba1be56e2fbbd3c5db774233bd8913f85"
+}

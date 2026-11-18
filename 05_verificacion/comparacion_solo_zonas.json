@@ -1,0 +1,96 @@
+{
+  "estado": "correcto",
+  "verificaciones": {
+    "misma_Q_por_componente_original": true,
+    "CITRA_costos_y_demanda_intactos": true,
+    "p_entre_cero_y_uno": true,
+    "conservacion_demanda_existente": true,
+    "sin_delta_fisico_mismo_resultado_ponderado": true,
+    "PIB_misma_Q_ambas_zonas": true,
+    "elasticidad_PIB_fija_entre_escenarios": true,
+    "PIB_1_2_3_por_ciento": true,
+    "base_2026_factor_uno": true,
+    "cantidades_2026_intactas": true,
+    "CG_y_probabilidades_sin_cambio_por_PIB": true,
+    "factores_2050_contraste_independiente": true,
+    "PIB_conservacion_existente": true,
+    "reproduccion_historica_previa_a_actualizar_PIB": true
+  },
+  "filas": 146160,
+  "metodo": "Modelo oficial congelado; misma muestra y selección de pantallas, pesos, temporalización, tarifas (incluida hipótesis CAM), conexiones, proyección, curvas e inducción. Solo se desagrega ARISTO por coordenadas y perfil original y se ajusta el delta espacial vial. CITRA ya contenía localidades y se conserva íntegra. Proyección vigente actualizada para ambas zonificaciones: PIB 1/2/3% con eta fija 1,2 vehículos y 0,6 peatones. La reproducción histórica se preserva en fuentes y las cantidades de 2026 no cambian.",
+  "filas_con_delta_espacial": 6840,
+  "limite": "Si no existe atributo vial comparable se conserva costo heredado y se marca; no se inventan costos ni se cambia el soporte. Los componentes sin perfil siguen zonales.",
+  "cobertura_espacial_ARISTO_B_2026": {
+    "filas": 148,
+    "filas_con_perfil": 129,
+    "flujo_con_perfil": 64401.00000000001,
+    "flujo_sin_perfil": 6020.428571428571,
+    "flujo_con_algun_delta_no_respaldado": 14734.468724842409,
+    "nota": "No sumar segmentos con unidades distintas: estas sumas solo permiten auditar componentes; ver desglose por segmento."
+  },
+  "cobertura_por_segmento": [
+    {
+      "segmento": "BICI",
+      "flujo_referencia": 52.0,
+      "flujo_con_perfil": null,
+      "flujo_con_delta_vial_no_respaldado": 52.0
+    },
+    {
+      "segmento": "BUS_TP",
+      "flujo_referencia": 0.0,
+      "flujo_con_perfil": null,
+      "flujo_con_delta_vial_no_respaldado": 0.0
+    },
+    {
+      "segmento": "CAM",
+      "flujo_referencia": 3161.571428571429,
+      "flujo_con_perfil": 3020.1428571428573,
+      "flujo_con_delta_vial_no_respaldado": 141.4285714285714
+    },
+    {
+      "segmento": "MOTO",
+      "flujo_referencia": 481.8571428571429,
+      "flujo_con_perfil": 312.0,
+      "flujo_con_delta_vial_no_respaldado": 169.85714285714286
+    },
+    {
+      "segmento": "OTRO_PASAJERO",
+      "flujo_referencia": null,
+      "flujo_con_perfil": null,
+      "flujo_con_delta_vial_no_respaldado": null
+    },
+    {
+      "segmento": "PEATON",
+      "flujo_referencia": 51542.428571428565,
+      "flujo_con_perfil": 45885.28571428571,
+      "flujo_con_delta_vial_no_respaldado": 11994.583082706766
+    },
+    {
+      "segmento": "VL",
+      "flujo_referencia": 7381.428571428571,
+      "flujo_con_perfil": 7381.428571428571,
+      "flujo_con_delta_vial_no_respaldado": 951.4610389610389
+    },
+    {
+      "segmento": "VP",
+      "flujo_referencia": 7802.142857142858,
+      "flujo_con_perfil": 7802.142857142858,
+      "flujo_con_delta_vial_no_respaldado": 1425.138888888889
+    }
+  ],
+  "proyeccion_PIB": {
+    "anio_base": 2026,
+    "tasas": {
+      "conservador": 0.01,
+      "central": 0.02,
+      "alto": 0.03
+    },
+    "eta_fija": {
+      "privados": 1.2,
+      "camiones": 1.2,
+      "peatones": 0.6
+    },
+    "formula": "Q(t)=Q(2026)*(1+PIB)^((t-2026)*eta)",
+    "escenario_elasticidad": "Se refiere a inducción por costo generalizado, no a elasticidad respecto al PIB."
+  }
+}

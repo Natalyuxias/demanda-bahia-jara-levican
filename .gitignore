@@ -1,0 +1,19 @@
+# Datos individuales y respaldo privado
+privado/*
+!privado/README.md
+02_procesamiento/
+00_fuentes/referencia/*
+!00_fuentes/referencia/config_oficial.json
+!00_fuentes/referencia/config_crecimiento.json
+!00_fuentes/referencia/config_transferencia.json
+!00_fuentes/referencia/config_induccion.json
+# Entornos y archivos temporales
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+~$*
+*.tmp
+*.log
+.DS_Store

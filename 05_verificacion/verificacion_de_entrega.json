@@ -1,0 +1,25 @@
+{
+  "estado": "correcto",
+  "perfil_distribucion": "entrega completa para repositorio privado; no publicación remota",
+  "verificaciones": {
+    "control_exportacion.json_controles": true,
+    "control_zonas.json_controles": true,
+    "dos_zonificaciones_separadas": true,
+    "sin_originales_ni_capas_individuales": true,
+    "sin_detalle_individual": true,
+    "archivos_menores_100MB": true,
+    "scripts_compilan": true,
+    "CSV_sin_identificadores_ni_coordenadas": true,
+    "Excel_integros_y_sin_campos_individuales": true,
+    "03_resultados_zonificacion_anterior_resumen_principal": true,
+    "03_resultados_zonificacion_anterior_cinco_libros_completos": true,
+    "04_resultados_zonificacion_localidades_resumen_principal": true,
+    "04_resultados_zonificacion_localidades_cinco_libros_completos": true,
+    "Git_excluye_datos_privados": true
+  },
+  "libros_verificados": 13,
+  "CSV_verificados": 37,
+  "maximo_archivo_bytes": 20355725,
+  "campos_prohibidos_detectados": [],
+  "alcance": "Comprueba integridad de libros, columnas, estructura, exclusión de insumos y controles de agregación. Las matrices OD pueden contener desagregaciones de baja frecuencia: esta validación no autoriza difusión pública de esas celdas ni completa sensibilidades pendientes."
+}

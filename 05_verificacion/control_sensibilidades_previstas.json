@@ -1,0 +1,302 @@
+{
+  "estado": "cobertura_parcial_de_la_bateria_amplia",
+  "alcance": "Auditoría de presencia de resultados vigentes; no ejecuta nuevos modelos ni considera reutilizables los resultados del recálculo retirado. La comparación actual conserva la metodología de referencia y cambia localización; las sensibilidades son pruebas adicionales, no cambios de su escenario central.",
+  "catalogo_previamente_presentado": 35,
+  "resumen_estados": {
+    "no_incorporada": 23,
+    "implementada": 7,
+    "no_equivalente_por_cambio_metodologico": 5
+  },
+  "conclusiones": [
+    "La batería amplia de35 escenarios presentada anteriormente no está completa en la entrega vigente.",
+    "Están representados7 elementos de ese catálogo:central,2curvas de captación,2tasas PIB extremas y2elasticidades de inducción por costo.",
+    "Faltan resultados vigentes o equivalentes para28 elementos:23 no incorporados y5 pruebas de robustez que deben redefinirse/reaplicarse al soporte conservado.",
+    "Además de esos7 elementos, la entrega actual cruza los3PIB con5casos captación/inducción heredados; tener más combinaciones no sustituye las variables ausentes.",
+    "Versiones ARISTOA/B y zonificación original/localidades son contrastes disponibles, pero tampoco sustituyen sensibilidad de tiempos, tarifas, frecuencias o cobertura."
+  ],
+  "evidencia": {
+    "archivo_demanda": "02_procesamiento/comparacion_metodologia_original.csv.gz",
+    "pares_captacion_induccion": [
+      [
+        "alto",
+        "central"
+      ],
+      [
+        "central",
+        "central"
+      ],
+      [
+        "central",
+        "mayor_induccion"
+      ],
+      [
+        "central",
+        "menor_induccion"
+      ],
+      [
+        "conservador",
+        "central"
+      ]
+    ],
+    "tasas_PIB": [
+      0.01,
+      0.02,
+      0.03
+    ],
+    "script": "01_modelo/comparar_solo_zonas.py",
+    "temporalizacion": "Selecciona escenario central de aristo_mensual_original.csv; no itera alternativas temporales.",
+    "archivos_resultados": [
+      "informe.html",
+      "demanda_comparada.xlsx",
+      "README.md"
+    ]
+  },
+  "escenarios": [
+    {
+      "escenario_previamente_presentado": "central",
+      "variable": "Referencia",
+      "valor": "Parámetros centrales y PIB2%",
+      "estado_actual": "implementada",
+      "comentario": "Demanda vigente en ambas zonificaciones; referencia metodológica conservada y proyección PIB actualizada."
+    },
+    {
+      "escenario_previamente_presentado": "captacion_bajo",
+      "variable": "Curva de captación",
+      "valor": "conservador",
+      "estado_actual": "implementada",
+      "comentario": "Curvas heredadas, inducción central; se mantiene la cohorte original."
+    },
+    {
+      "escenario_previamente_presentado": "captacion_alto",
+      "variable": "Curva de captación",
+      "valor": "alto",
+      "estado_actual": "implementada",
+      "comentario": "Curvas heredadas, inducción central; se mantiene la cohorte original."
+    },
+    {
+      "escenario_previamente_presentado": "PIB_bajo",
+      "variable": "Crecimiento del PIB real anual",
+      "valor": 0.01,
+      "estado_actual": "implementada",
+      "comentario": "Elasticidad demanda/PIB fija:1,2 vehículos y0,6 peatones. Las tres tasas están calculadas para ambas zonificaciones."
+    },
+    {
+      "escenario_previamente_presentado": "PIB_alto",
+      "variable": "Crecimiento del PIB real anual",
+      "valor": 0.03,
+      "estado_actual": "implementada",
+      "comentario": "Elasticidad demanda/PIB fija:1,2 vehículos y0,6 peatones. Las tres tasas están calculadas para ambas zonificaciones."
+    },
+    {
+      "escenario_previamente_presentado": "VST_bajo",
+      "variable": "Valor social del tiempo",
+      "valor": 0.8,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "VST_alto",
+      "variable": "Valor social del tiempo",
+      "valor": 1.2,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "COV_bajo",
+      "variable": "Costo de operación vehicular",
+      "valor": 0.8,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "COV_alto",
+      "variable": "Costo de operación vehicular",
+      "valor": 1.2,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "velocidad_bajo",
+      "variable": "Velocidad vial",
+      "valor": 0.8,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "velocidad_alto",
+      "variable": "Velocidad vial",
+      "valor": 1.2,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "tarifa_nueva_bajo",
+      "variable": "Tarifa del proyecto",
+      "valor": 0.8,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "tarifa_nueva_alto",
+      "variable": "Tarifa del proyecto",
+      "valor": 1.2,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "tarifa_buses_bajo",
+      "variable": "Tarifa de buses",
+      "valor": 0.8,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "tarifa_buses_alto",
+      "variable": "Tarifa de buses",
+      "valor": 1.2,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "factor_12_24_bajo",
+      "variable": "Factor CITRA12a24",
+      "valor": 1.0,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "factor_12_24_alto",
+      "variable": "Factor CITRA12a24",
+      "valor": 1.4,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "presentacion_bajo",
+      "variable": "Variación de anticipación al embarque (h)",
+      "valor": -0.5,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "presentacion_alto",
+      "variable": "Variación de anticipación al embarque (h)",
+      "valor": 0.5,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "desembarque_bajo",
+      "variable": "Tiempo de desembarque (h)",
+      "valor": 0.25,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "desembarque_alto",
+      "variable": "Tiempo de desembarque (h)",
+      "valor": 0.75,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "navegacion_nueva_bajo",
+      "variable": "Variación de navegación del proyecto (min)",
+      "valor": -10,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "navegacion_nueva_alto",
+      "variable": "Variación de navegación del proyecto (min)",
+      "valor": 10,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "frecuencia_nueva_bajo",
+      "variable": "Frecuencia del proyecto (zarpes/semana/sentido)",
+      "valor": 8,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "frecuencia_nueva_alto",
+      "variable": "Frecuencia del proyecto (zarpes/semana/sentido)",
+      "valor": 14,
+      "estado_actual": "no_incorporada",
+      "comentario": "No hay resultado de demanda vigente para esta variación. Los resultados del recálculo retirado no son reutilizables como sensibilidad de la comparación corregida."
+    },
+    {
+      "escenario_previamente_presentado": "elasticidad_induccion_bajo",
+      "variable": "Variación epsilon respecto al costo generalizado",
+      "valor": 0.1,
+      "estado_actual": "implementada",
+      "comentario": "Es elasticidad de inducción por costo, no elasticidad respecto al PIB. Configuración heredada distingue menor/central/mayor inducción."
+    },
+    {
+      "escenario_previamente_presentado": "elasticidad_induccion_alto",
+      "variable": "Variación epsilon respecto al costo generalizado",
+      "valor": -0.1,
+      "estado_actual": "implementada",
+      "comentario": "Es elasticidad de inducción por costo, no elasticidad respecto al PIB. Configuración heredada distingue menor/central/mayor inducción."
+    },
+    {
+      "escenario_previamente_presentado": "sin_buses_nuevos",
+      "variable": "Disponibilidad de buses coordinados nuevos",
+      "valor": false,
+      "estado_actual": "no_incorporada",
+      "comentario": "La entrega vigente conserva la operación base heredada; no contiene este contraste."
+    },
+    {
+      "escenario_previamente_presentado": "temporal_conservador",
+      "variable": "Factores de temporalización",
+      "valor": "conservador",
+      "estado_actual": "no_incorporada",
+      "comentario": "La desagregación vigente usa los perfiles y factores temporales centrales del modelo original; no hay estimación alternativa de demanda temporalizada."
+    },
+    {
+      "escenario_previamente_presentado": "temporal_alto",
+      "variable": "Factores de temporalización",
+      "valor": "alto",
+      "estado_actual": "no_incorporada",
+      "comentario": "La desagregación vigente usa los perfiles y factores temporales centrales del modelo original; no hay estimación alternativa de demanda temporalizada."
+    },
+    {
+      "escenario_previamente_presentado": "OD_minimo3",
+      "variable": "Mínimo de entrevistas por OD fino",
+      "valor": 3,
+      "estado_actual": "no_equivalente_por_cambio_metodologico",
+      "comentario": "La prueba anterior pertenecía al recálculo ampliado retirado. Debe definirse y calcularse sobre los OD y el soporte original de la comparación vigente; sus resultados no están incorporados."
+    },
+    {
+      "escenario_previamente_presentado": "OD_minimo5",
+      "variable": "Mínimo de entrevistas por OD fino",
+      "valor": 5,
+      "estado_actual": "no_equivalente_por_cambio_metodologico",
+      "comentario": "La prueba anterior pertenecía al recálculo ampliado retirado. Debe definirse y calcularse sobre los OD y el soporte original de la comparación vigente; sus resultados no están incorporados."
+    },
+    {
+      "escenario_previamente_presentado": "sin_N_mayor_F",
+      "variable": "Excluir modelabilidad cuando N>F",
+      "valor": true,
+      "estado_actual": "no_equivalente_por_cambio_metodologico",
+      "comentario": "La prueba anterior estaba ligada a otra cohorte/soporte y no es resultado vigente. Requiere reaplicarse al modelo conservado; no debe confundirse con una exclusión ya presente en su metodología base."
+    },
+    {
+      "escenario_previamente_presentado": "solo_coordenadas_entregadas",
+      "variable": "Restringir a coordenadas originales",
+      "valor": true,
+      "estado_actual": "no_equivalente_por_cambio_metodologico",
+      "comentario": "La prueba anterior estaba ligada a otra cohorte/soporte y no es resultado vigente. Requiere reaplicarse al modelo conservado; no debe confundirse con una exclusión ya presente en su metodología base."
+    },
+    {
+      "escenario_previamente_presentado": "sin_cola_comun",
+      "variable": "Excluir captación de núcleos con cola externa no valorada",
+      "valor": true,
+      "estado_actual": "no_equivalente_por_cambio_metodologico",
+      "comentario": "La prueba anterior estaba ligada a otra cohorte/soporte y no es resultado vigente. Requiere reaplicarse al modelo conservado; no debe confundirse con una exclusión ya presente en su metodología base."
+    }
+  ],
+  "sha256_datos_descomprimidos": "7096df2975bfcf741adc0052f08018aba1be56e2fbbd3c5db774233bd8913f85"
+}

@@ -1,0 +1,68 @@
+{
+  "estado": "documentado",
+  "alcance": "Comprobación de cifras de auditoría y parámetros que fundamentan los documentos metodológicos; sin modificación del modelo ni de sus resultados.",
+  "fuentes_consultadas": [
+    "citra_auditoria_original.csv",
+    "aristo_individual.csv",
+    "aristo_balance_fecha.csv",
+    "aristo_mensual_original.csv",
+    "config_oficial.json",
+    "config_transferencia.json",
+    "config_induccion.json",
+    "config_crecimiento.json",
+    "comparacion_solo_zonas.json",
+    "control_sensibilidades_previstas.json",
+    "validacion original de la etapa ARISTO"
+  ],
+  "citra": {
+    "auditadas": 112,
+    "admisibles_corredor": 109,
+    "excluidas": 3,
+    "admisibles_con_factor": 93,
+    "utilizadas_pantalla": 64,
+    "otras_pantallas_no_sumadas": 29,
+    "sin_expansion": 16,
+    "sin_expansion_duplicadas_EOD": 11,
+    "sin_expansion_grilla_invalida": 5
+  },
+  "aristo": {
+    "originales": 290,
+    "validas": 264,
+    "con_coeficiente": 258,
+    "OD_y_coeficiente": 252,
+    "estratos_fecha_sentido_clase": 40,
+    "campanas": {
+      "Verano": 103,
+      "Otono": 85,
+      "Primavera": 76
+    }
+  },
+  "parametros_vigentes": {
+    "PIB": [
+      0.01,
+      0.02,
+      0.03
+    ],
+    "eta_vehiculos_fija": 1.2,
+    "eta_peatones_fija": 0.6,
+    "navegacion_SBO_min": 107,
+    "navegacion_A1_A2_A3_min": [
+      43,
+      39,
+      39
+    ],
+    "frecuencia_alta_baja_por_sentido": [
+      11,
+      8
+    ],
+    "CITRA_factor_12_24_hipotesis": 1.2
+  },
+  "precedencia_configuracion": "La operación vigente de config_oficial prevalece sobre textos históricos 14/12 y navegación 120/80 de otras configuraciones.",
+  "cobertura": "ARISTO VL seis meses; VP seis meses complementarios; CAM y PEATON doce meses modelados.",
+  "sensibilidades_amplias": {
+    "catalogo": 35,
+    "representadas": 7,
+    "sin_resultados_vigentes": 23,
+    "por_reaplicar": 5
+  }
+}
