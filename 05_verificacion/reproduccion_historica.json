@@ -6,5 +6,6 @@
     "23_controles_originales": true
   },
   "fuente_ejecutable": "Anexos/actualizacion_oficial_alternativas_20261029/codigo/calcular.py",
-  "configuracion": "00_fuentes/referencia/config_oficial.json"
+  "configuracion": "00_fuentes/referencia/config_oficial.json",
+  "alcance_temporal_del_control": "Control del cálculo de referencia previo a la actualización específica VST CAM a 12.954. La actualización vigente se verifica en actualizacion_valor_tiempo_carga.json y en control_exportacion.json."
 }

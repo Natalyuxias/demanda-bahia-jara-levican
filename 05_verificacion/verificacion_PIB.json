@@ -92,5 +92,6 @@
     "PEATON": 11145.728517349624
   },
   "alcance": "Comprobación independiente del CSV final por fórmulas explícitas, no reutiliza las validaciones del generador. Verifica cantidades, parámetros y preservación de base2026; no certifica representatividad ni validez externa de supuestos.",
-  "sha256_datos_descomprimidos": "7096df2975bfcf741adc0052f08018aba1be56e2fbbd3c5db774233bd8913f85"
+  "sha256_datos_descomprimidos": "7096df2975bfcf741adc0052f08018aba1be56e2fbbd3c5db774233bd8913f85",
+  "alcance_temporal_del_control": "Control del cálculo de referencia previo a la actualización específica VST CAM a 12.954. La actualización vigente se verifica en actualizacion_valor_tiempo_carga.json y en control_exportacion.json."
 }

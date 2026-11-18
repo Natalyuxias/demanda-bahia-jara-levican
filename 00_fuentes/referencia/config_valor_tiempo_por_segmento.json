@@ -1,0 +1,9 @@
+{
+  "valor_referencia_CLP_persona_h": 10047,
+  "valores_por_segmento": {
+    "CAM": 12954
+  },
+  "moneda": "CLP enero de 2026",
+  "ocupacion_CAM": 1,
+  "criterio": "Actualización específica de carga. Los demás segmentos conservan el parámetro general de 10047."
+}

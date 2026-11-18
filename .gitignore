@@ -17,3 +17,4 @@ __pycache__/
 *.tmp
 *.log
 .DS_Store
+!00_fuentes/referencia/config_valor_tiempo_por_segmento.json

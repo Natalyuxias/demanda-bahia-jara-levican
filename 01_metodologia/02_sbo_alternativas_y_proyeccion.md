@@ -35,7 +35,7 @@ Para cada OD, segmento y alternativa se conserva la estructura de costo monetari
 
 $$CG=COV+Tarifas+VST\,o\,T$$
 
-$COV$ corresponde al costo de operación vehicular; las tarifas incluyen los componentes viales, lacustres o de bus que procedan. $VST$ es el valor del tiempo y $o$ la ocupación empleada para expresar su costo por vehículo o usuario. Se conserva $VST=10.047$ CLP por persona-hora; ocupación 1,98 para VL y el perfil de costos VP, y 1 para camiones y peatones. Los precios siguen la convención de enero de 2026 del modelo de referencia.
+$COV$ corresponde al costo de operación vehicular; las tarifas incluyen los componentes viales, lacustres o de bus que procedan. $VST$ es el valor del tiempo y $o$ la ocupación empleada para expresar su costo por vehículo o usuario. Se utiliza $VST=10.047$ CLP por persona-hora para los segmentos generales y $VST_{CAM}=12.954$ CLP por hora de camión. La ocupación es 1,98 para VL y el perfil de costos VP, y 1 para camiones y peatones. El valor de carga sustituye al supuesto anterior de 10.047; los demás segmentos no cambian. Los precios siguen la convención de enero de 2026 del modelo de referencia.
 
 El tiempo lacustre incluye acceso vial, navegación, presentación, desembarque y penalización por horario. Esta última utiliza $0,25\times168/f$, con $f$ en servicios semanales por sentido.
 
@@ -100,3 +100,7 @@ $$Q_t=Q_{2026}(1+g)^{(t-2026)\eta}$$
 Se sensibiliza la tasa de crecimiento del PIB y se mantienen fijas las elasticidades demanda/PIB. Las tasas son supuestos del análisis, no pronósticos oficiales ni una calibración local. Las clases conservan el agrupamiento de familias del modelo; no se crea una base positiva para clases con cero o sin información compatible.
 
 Con costos, frecuencias y participaciones fijos, la referencia, captación, inducción y residuales escalan con el mismo factor de crecimiento de su segmento. Los tres escenarios coinciden en 2026. Cambiar el PIB no exige recalcular rutas o expansión.
+
+## Actualización del valor del tiempo de carga
+
+El costo de cada ruta CAM se actualiza mediante $CG_{12.954}=CG_{10.047}+2.907\,T$, con el tiempo total de conducción, navegación, presentación, desembarque y horario que corresponda. Los tiempos faltantes en la caché se recuperan de los componentes originales y sus reglas de imputación; no se obtiene el tiempo dividiendo el costo generalizado por VST. Las colas externas mantienen el núcleo documentado y su propio costo monetario heredado. Se recalculan captación e inducción CAM; los aforos, factores, referencia y SBO en cantidades permanecen iguales.

@@ -2,6 +2,7 @@
 
 | Archivo | Alcance |
 |---|---|
+| `actualizacion_valor_tiempo_carga.json` | Cambio específico CAM 10.047→12.954, conservación de referencia y otros segmentos, comparación de resultados |
 | `control_exportacion.json` | Reconciliación entre fuentes, OD, estaciones y resúmenes; deduplicación de la SBO |
 | `control_zonas.json` | Catálogos, correspondencias y coincidencia de códigos en las matrices |
 | `informe_metodologico_fuentes.json` | Cifras y parámetros contrastados con los insumos auditados |

@@ -14,6 +14,7 @@ AP=argparse.ArgumentParser(description=__doc__)
 AP.add_argument('--entrada',type=Path,default=Path(__file__).resolve().parents[1]/'privado/comparacion_metodologia_original.csv.gz')
 AP.add_argument('--salida',type=Path,default=Path(__file__).resolve().parents[1])
 AP.add_argument('--referencias',type=Path,help='Carpeta privada con zonas_55.csv y geografia.json.gz opcional; si se omite usa catálogos públicos de la entrega.')
+AP.add_argument('--solo-tablas',action='store_true',help='Actualizar CSV y controles sin reescribir los libros Excel.')
 A=AP.parse_args();OUT=A.salida.resolve();OUT.mkdir(parents=True,exist_ok=True)
 start=time.time();counts={};checks={}
 metrics=['Q_referencia','D_tierra_SBO','D_actual_SBO','D_existente_nuevo','D_tierra_CP_existente','D_actual_CP_existente','D_inducida_incremental','D_inducida_tierra','D_inducida_actual','D_inducida_nuevo','D_tierra_CP_total','D_actual_CP_total','D_nuevo_CP_total','D_residual_existente']
@@ -100,6 +101,8 @@ def readable(frame):
  return f
 
 def excel(path,sheets):
+ if A.solo_tablas:
+  counts[str(path.relative_to(OUT))]={'hojas':{name:len(df) for name,df in sheets},'bytes':path.stat().st_size if path.exists() else 0};return
  w=Workbook(write_only=True)
  for name,frame in [('Guía de lectura',pd.DataFrame(guide)),*sheets]:
   f=readable(frame);ws=w.create_sheet(name[:31]);ws.freeze_panes='A2'

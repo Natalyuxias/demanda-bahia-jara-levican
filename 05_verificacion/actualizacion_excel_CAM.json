@@ -1,0 +1,283 @@
+{
+  "estado": "correcto",
+  "alcance": "Actualización de cantidades CAM en A1/A2/A3 desde CSV agregados. Filas SBO y otras clases conservadas byte por byte; estilos y demás miembros ZIP preservados.",
+  "libros": {
+    "03_resultados_zonificacion_anterior/01_resumen_anual_sbo_y_alternativas.xlsx": {
+      "Ambos sentidos por fuente": {
+        "filas": 3840,
+        "filas_CAM_con_proyecto": 720,
+        "filas_CAM_modificadas": 432,
+        "celdas_modificadas": 1728,
+        "filas_protegidas": 3120,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Por sentido y fuente": {
+        "filas": 7296,
+        "filas_CAM_con_proyecto": 1440,
+        "filas_CAM_modificadas": 864,
+        "celdas_modificadas": 3456,
+        "filas_protegidas": 5856,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Ambos sentidos total fuentes": {
+        "filas": 3072,
+        "filas_CAM_con_proyecto": 360,
+        "filas_CAM_modificadas": 360,
+        "celdas_modificadas": 1584,
+        "filas_protegidas": 2712,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Por sentido total fuentes": {
+        "filas": 5760,
+        "filas_CAM_con_proyecto": 720,
+        "filas_CAM_modificadas": 720,
+        "celdas_modificadas": 3168,
+        "filas_protegidas": 5040,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    },
+    "03_resultados_zonificacion_anterior/02_resumen_estacional_sbo_y_alternativas.xlsx": {
+      "Ambos sentidos por fuente": {
+        "filas": 11136,
+        "filas_CAM_con_proyecto": 2880,
+        "filas_CAM_modificadas": 1656,
+        "celdas_modificadas": 6624,
+        "filas_protegidas": 8256,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Por sentido y fuente": {
+        "filas": 21888,
+        "filas_CAM_con_proyecto": 5760,
+        "filas_CAM_modificadas": 2568,
+        "celdas_modificadas": 10272,
+        "filas_protegidas": 16128,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Ambos sentidos total fuentes": {
+        "filas": 8832,
+        "filas_CAM_con_proyecto": 1440,
+        "filas_CAM_modificadas": 1440,
+        "celdas_modificadas": 6192,
+        "filas_protegidas": 7392,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Por sentido total fuentes": {
+        "filas": 17280,
+        "filas_CAM_con_proyecto": 2880,
+        "filas_CAM_modificadas": 2208,
+        "celdas_modificadas": 9552,
+        "filas_protegidas": 14400,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    },
+    "03_resultados_zonificacion_anterior/03_matrices_od_anuales.xlsx": {
+      "Por fuente": {
+        "filas": 24000,
+        "filas_CAM_con_proyecto": 3780,
+        "filas_CAM_modificadas": 864,
+        "celdas_modificadas": 3456,
+        "filas_protegidas": 20220,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Total fuentes": {
+        "filas": 21312,
+        "filas_CAM_con_proyecto": 3060,
+        "filas_CAM_modificadas": 720,
+        "celdas_modificadas": 3168,
+        "filas_protegidas": 18252,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    },
+    "03_resultados_zonificacion_anterior/04_matrices_od_estacionales.xlsx": {
+      "Por fuente": {
+        "filas": 47424,
+        "filas_CAM_con_proyecto": 7380,
+        "filas_CAM_modificadas": 2568,
+        "celdas_modificadas": 10272,
+        "filas_protegidas": 40044,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Total fuentes": {
+        "filas": 42048,
+        "filas_CAM_con_proyecto": 5580,
+        "filas_CAM_modificadas": 2208,
+        "celdas_modificadas": 9552,
+        "filas_protegidas": 36468,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    },
+    "03_resultados_zonificacion_anterior/05_demanda_por_modo.xlsx": {
+      "Anual por fuente": {
+        "filas": 29184,
+        "filas_CAM_con_proyecto": 5760,
+        "filas_CAM_modificadas": 1728,
+        "celdas_modificadas": 3456,
+        "filas_protegidas": 23424,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Anual total fuentes": {
+        "filas": 23040,
+        "filas_CAM_con_proyecto": 2880,
+        "filas_CAM_modificadas": 1584,
+        "celdas_modificadas": 3168,
+        "filas_protegidas": 20160,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Estacional central por fuente": {
+        "filas": 3648,
+        "filas_CAM_con_proyecto": 768,
+        "filas_CAM_modificadas": 136,
+        "celdas_modificadas": 272,
+        "filas_protegidas": 2880,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Estacional central total fuente": {
+        "filas": 2880,
+        "filas_CAM_con_proyecto": 384,
+        "filas_CAM_modificadas": 136,
+        "celdas_modificadas": 272,
+        "filas_protegidas": 2496,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    },
+    "04_resultados_zonificacion_localidades/01_resumen_anual_sbo_y_alternativas.xlsx": {
+      "Ambos sentidos por fuente": {
+        "filas": 3840,
+        "filas_CAM_con_proyecto": 720,
+        "filas_CAM_modificadas": 432,
+        "celdas_modificadas": 1728,
+        "filas_protegidas": 3120,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Por sentido y fuente": {
+        "filas": 7296,
+        "filas_CAM_con_proyecto": 1440,
+        "filas_CAM_modificadas": 864,
+        "celdas_modificadas": 3456,
+        "filas_protegidas": 5856,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Ambos sentidos total fuentes": {
+        "filas": 3072,
+        "filas_CAM_con_proyecto": 360,
+        "filas_CAM_modificadas": 360,
+        "celdas_modificadas": 1584,
+        "filas_protegidas": 2712,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Por sentido total fuentes": {
+        "filas": 5760,
+        "filas_CAM_con_proyecto": 720,
+        "filas_CAM_modificadas": 720,
+        "celdas_modificadas": 3168,
+        "filas_protegidas": 5040,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    },
+    "04_resultados_zonificacion_localidades/02_resumen_estacional_sbo_y_alternativas.xlsx": {
+      "Ambos sentidos por fuente": {
+        "filas": 11136,
+        "filas_CAM_con_proyecto": 2880,
+        "filas_CAM_modificadas": 1656,
+        "celdas_modificadas": 6624,
+        "filas_protegidas": 8256,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Por sentido y fuente": {
+        "filas": 21888,
+        "filas_CAM_con_proyecto": 5760,
+        "filas_CAM_modificadas": 2568,
+        "celdas_modificadas": 10272,
+        "filas_protegidas": 16128,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Ambos sentidos total fuentes": {
+        "filas": 8832,
+        "filas_CAM_con_proyecto": 1440,
+        "filas_CAM_modificadas": 1440,
+        "celdas_modificadas": 6192,
+        "filas_protegidas": 7392,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Por sentido total fuentes": {
+        "filas": 17280,
+        "filas_CAM_con_proyecto": 2880,
+        "filas_CAM_modificadas": 2208,
+        "celdas_modificadas": 9552,
+        "filas_protegidas": 14400,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    },
+    "04_resultados_zonificacion_localidades/03_matrices_od_anuales.xlsx": {
+      "Por fuente": {
+        "filas": 39744,
+        "filas_CAM_con_proyecto": 4860,
+        "filas_CAM_modificadas": 1296,
+        "celdas_modificadas": 5184,
+        "filas_protegidas": 34884,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Total fuentes": {
+        "filas": 36672,
+        "filas_CAM_con_proyecto": 4500,
+        "filas_CAM_modificadas": 1224,
+        "celdas_modificadas": 5040,
+        "filas_protegidas": 32172,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    },
+    "04_resultados_zonificacion_localidades/04_matrices_od_estacionales.xlsx": {
+      "Por fuente": {
+        "filas": 77760,
+        "filas_CAM_con_proyecto": 9540,
+        "filas_CAM_modificadas": 3408,
+        "celdas_modificadas": 13632,
+        "filas_protegidas": 68220,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Total fuentes": {
+        "filas": 72768,
+        "filas_CAM_con_proyecto": 8820,
+        "filas_CAM_modificadas": 3264,
+        "celdas_modificadas": 13344,
+        "filas_protegidas": 63948,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    },
+    "04_resultados_zonificacion_localidades/05_demanda_por_modo.xlsx": {
+      "Anual por fuente": {
+        "filas": 29184,
+        "filas_CAM_con_proyecto": 5760,
+        "filas_CAM_modificadas": 1728,
+        "celdas_modificadas": 3456,
+        "filas_protegidas": 23424,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Anual total fuentes": {
+        "filas": 23040,
+        "filas_CAM_con_proyecto": 2880,
+        "filas_CAM_modificadas": 1584,
+        "celdas_modificadas": 3168,
+        "filas_protegidas": 20160,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Estacional central por fuente": {
+        "filas": 3648,
+        "filas_CAM_con_proyecto": 768,
+        "filas_CAM_modificadas": 136,
+        "celdas_modificadas": 272,
+        "filas_protegidas": 2880,
+        "filas_SBO_y_no_CAM_identicas": true
+      },
+      "Estacional central total fuente": {
+        "filas": 2880,
+        "filas_CAM_con_proyecto": 384,
+        "filas_CAM_modificadas": 136,
+        "celdas_modificadas": 272,
+        "filas_protegidas": 2496,
+        "filas_SBO_y_no_CAM_identicas": true
+      }
+    }
+  },
+  "segundos": 133.6
+}

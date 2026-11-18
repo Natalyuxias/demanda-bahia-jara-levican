@@ -1,0 +1,33 @@
+{
+  "estado": "correcto",
+  "valor_anterior": 10047,
+  "valor_CAM_actualizado": 12954,
+  "unidad": "CLP enero 2026 por hora de camión, ocupación 1",
+  "verificaciones": {
+    "otros_segmentos_intactos": true,
+    "referencia_y_SBO_intactas": true,
+    "tiempos_recuperados_CAM_modelable": true,
+    "p_entre_cero_y_uno": true,
+    "conservacion_existente": true,
+    "induccion_no_negativa": true
+  },
+  "alcance": "Solo CAM; CG actualizado por diferencia de VST multiplicada por tiempo recuperado. COV, tarifas, referencia, expansión y demás segmentos intactos.",
+  "comparacion_central_2026_localidades": [
+    {
+      "alternativa_proyecto": "A1",
+      "demanda_CAM_anterior": 312.1708762915126,
+      "demanda_CAM_actualizada": 284.9499919415282
+    },
+    {
+      "alternativa_proyecto": "A2",
+      "demanda_CAM_anterior": 341.9117263943952,
+      "demanda_CAM_actualizada": 300.32640326136516
+    },
+    {
+      "alternativa_proyecto": "A3",
+      "demanda_CAM_anterior": 351.2527958594123,
+      "demanda_CAM_actualizada": 303.7619931996511
+    }
+  ],
+  "sha256_datos_descomprimidos": "e08efb3353a43adde52b658adef4dc6503ac6950a0c23a3baa39b11d0c689ec4"
+}

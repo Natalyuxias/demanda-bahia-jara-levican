@@ -92,5 +92,6 @@
     },
     "formula": "Q(t)=Q(2026)*(1+PIB)^((t-2026)*eta)",
     "escenario_elasticidad": "Se refiere a inducción por costo generalizado, no a elasticidad respecto al PIB."
-  }
+  },
+  "alcance_temporal_del_control": "Control del cálculo de referencia previo a la actualización específica VST CAM a 12.954. La actualización vigente se verifica en actualizacion_valor_tiempo_carga.json y en control_exportacion.json."
 }

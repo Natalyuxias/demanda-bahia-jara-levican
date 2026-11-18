@@ -1,6 +1,6 @@
 """Comparación espacial: mismas cohortes, expansión, tarifas y ecuaciones del modelo oficial.
 Solo se desagrega ARISTO con la composición original de cada fecha y OD.
-CITRA ya contenía localidades en el modelo oficial: conserva flujos y costos.
+CITRA ya contenía localidades: conserva flujos y componentes; las actualizaciones de VST por segmento se aplican al final.
 """
 from pathlib import Path
 import json,gzip,hashlib,math,unicodedata
@@ -155,3 +155,8 @@ out.to_csv(P/'comparacion_metodologia_original.csv.gz',index=False,compression='
 
 (V/'comparacion_solo_zonas.json').write_text(json.dumps(validation,ensure_ascii=False,indent=2));assert all(checks.values()),checks
 print(json.dumps(validation,ensure_ascii=False,indent=2));print(out[(out.version_referencia=='B')&(out.escenario_captacion=='central')&(out.escenario_elasticidad=='central')&(out.anio==2026)&(out.escenario_PIB=='central')].groupby(['zonificacion','alternativa_proyecto','segmento']).D_nuevo_CP_total.sum(min_count=1).to_string())
+
+# Actualización específica del valor del tiempo, aplicada después del escenario heredado.
+if (R/'config_valor_tiempo_por_segmento.json').exists():
+ from actualizar_valor_tiempo_carga import actualizar
+ actualizar()

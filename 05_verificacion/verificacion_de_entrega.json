@@ -18,8 +18,8 @@
     "Git_excluye_datos_privados": true
   },
   "libros_verificados": 13,
-  "CSV_verificados": 37,
-  "maximo_archivo_bytes": 20355725,
+  "CSV_verificados": 38,
+  "maximo_archivo_bytes": 20279534,
   "campos_prohibidos_detectados": [],
   "alcance": "Comprueba integridad de libros, columnas, estructura, exclusión de insumos y controles de agregación. Las matrices OD pueden contener desagregaciones de baja frecuencia. Esta validación no certifica precisión estadística ni completa sensibilidades pendientes."
 }

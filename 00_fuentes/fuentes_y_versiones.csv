@@ -53,3 +53,5 @@ referencia/citra_auditoria_original.csv,auditoria_112.csv,57bef4ab6c5d4c2dd29588
 referencia/atributos_viales_localidades.csv,"Derivado de red HDM4: atributos físicos por localidad y alternativa, sin tarifas ni demanda",bb755665252672d0c5beaeaf207e08432622c5c302a329f641aa9105406805d1,Archivo de respaldo privado; no incluido
 referencia/costos_originales.csv.gz, Costos por alternativa,158a4a52e096cb0ad5d77c4d04727c43e8e1c2aa970a038e34d807ed09374f75,Archivo de respaldo privado; no incluido
 referencia/demanda_original.csv.gz, Demanda detallada,180d2f3ad16d4932b101c8047d60bc42092be221a2bf1ce70545aa9c55f8aff9,Archivo de respaldo privado; no incluido
+referencia/tiempos_cam_modelo_referencia.csv,Componentes temporales originales y actualización específica CAM,7702c02dbba6bbefd886c48f7c915c34658efa68897a6d1ef2541bbbbeb40074,Archivo de respaldo privado; no incluido
+referencia/config_valor_tiempo_por_segmento.json,Componentes temporales originales y actualización específica CAM,72c612d5f36461446d56c5e705ea19916e619e2659a19cfe239a459e692913be,Configuración incluida

@@ -4,81 +4,68 @@
     "SBO_referencia_identica_A2": true,
     "SBO_referencia_identica_A3": true,
     "original_fuentes_reconcilian": true,
+    "original_conservacion_demanda_existente": true,
+    "original_conservacion_con_induccion_estimable": true,
     "original_OD_reconcilia_anual": true,
     "original_estaciones_reconcilian_anual": true,
     "localidades_fuentes_reconcilian": true,
+    "localidades_conservacion_demanda_existente": true,
+    "localidades_conservacion_con_induccion_estimable": true,
     "localidades_OD_reconcilia_anual": true,
     "localidades_estaciones_reconcilian_anual": true,
     "sin_campos_individuales_en_tablas": true,
     "SBO_no_repite_casos_captacion_induccion": true,
-    "SBO_no_repite_alternativas": true,
-    "original_conservacion_demanda_existente": true,
-    "original_conservacion_con_induccion_estimable": true,
-    "original_README_legible": true,
-    "localidades_conservacion_demanda_existente": true,
-    "localidades_conservacion_con_induccion_estimable": true,
-    "localidades_README_legible": true,
-    "archivo_menor_100MB_04_resultados_zonificacion_localidades_01_resumen_anual_sbo_y_alternativas.xlsx": true,
-    "archivo_menor_100MB_04_resultados_zonificacion_localidades_05_demanda_por_modo.xlsx": true,
-    "archivo_menor_100MB_04_resultados_zonificacion_localidades_03_matrices_od_anuales.xlsx": true,
-    "archivo_menor_100MB_04_resultados_zonificacion_localidades_04_matrices_od_estacionales.xlsx": true,
-    "archivo_menor_100MB_04_resultados_zonificacion_localidades_02_resumen_estacional_sbo_y_alternativas.xlsx": true,
-    "archivo_menor_100MB_03_resultados_zonificacion_anterior_01_resumen_anual_sbo_y_alternativas.xlsx": true,
-    "archivo_menor_100MB_03_resultados_zonificacion_anterior_05_demanda_por_modo.xlsx": true,
-    "archivo_menor_100MB_03_resultados_zonificacion_anterior_03_matrices_od_anuales.xlsx": true,
-    "archivo_menor_100MB_03_resultados_zonificacion_anterior_04_matrices_od_estacionales.xlsx": true,
-    "archivo_menor_100MB_03_resultados_zonificacion_anterior_02_resumen_estacional_sbo_y_alternativas.xlsx": true,
     "SBO_no_repite_componentes": true
   },
   "alcance": "Exportación agregada de los resultados ya calculados. No genera nuevas sensibilidades, aforos ni demanda. Los residuales no se consideran modo físico.",
   "archivos": {
     "03_resultados_zonificacion_anterior/tablas_csv/resumen_anual_por_fuente_ambos_sentidos.csv.gz": {
       "filas": 3840,
-      "bytes": 54092
+      "bytes": 54035
     },
     "03_resultados_zonificacion_anterior/tablas_csv/resumen_anual_por_fuente_y_sentido.csv.gz": {
       "filas": 7296,
-      "bytes": 109631
+      "bytes": 107065
     },
     "03_resultados_zonificacion_anterior/tablas_csv/resumen_anual_total_fuentes_ambos_sentidos.csv.gz": {
       "filas": 3072,
-      "bytes": 44665
+      "bytes": 44695
     },
     "03_resultados_zonificacion_anterior/tablas_csv/resumen_anual_total_fuentes_por_sentido.csv.gz": {
       "filas": 5760,
-      "bytes": 98974
+      "bytes": 96148
     },
     "03_resultados_zonificacion_anterior/tablas_csv/resumen_estacional_por_fuente_ambos_sentidos.csv.gz": {
       "filas": 11136,
-      "bytes": 177852
+      "bytes": 177790
     },
     "03_resultados_zonificacion_anterior/tablas_csv/resumen_estacional_por_fuente_y_sentido.csv.gz": {
       "filas": 21888,
-      "bytes": 524788
+      "bytes": 517316
     },
     "03_resultados_zonificacion_anterior/tablas_csv/resumen_estacional_total_fuentes_ambos_sentidos.csv.gz": {
       "filas": 8832,
-      "bytes": 160308
+      "bytes": 160500
     },
     "03_resultados_zonificacion_anterior/tablas_csv/resumen_estacional_total_fuentes_por_sentido.csv.gz": {
       "filas": 17280,
-      "bytes": 488991
+      "bytes": 482541
     },
     "03_resultados_zonificacion_anterior/tablas_csv/matrices_od_anuales_por_fuente_y_sentido.csv.gz": {
       "filas": 24000,
-      "bytes": 517077
+      "bytes": 512918
     },
     "03_resultados_zonificacion_anterior/tablas_csv/matrices_od_anuales_total_fuentes_por_sentido.csv.gz": {
       "filas": 21312,
-      "bytes": 502021
+      "bytes": 497534
     },
     "03_resultados_zonificacion_anterior/tablas_csv/matrices_od_estacionales_por_fuente_y_sentido.csv.gz": {
       "filas": 47424,
-      "bytes": 1010569
+      "bytes": 1002254
     },
     "03_resultados_zonificacion_anterior/tablas_csv/matrices_od_estacionales_total_fuentes_por_sentido.csv.gz": {
       "filas": 42048,
-      "bytes": 988111
+      "bytes": 980898
     },
     "03_resultados_zonificacion_anterior/01_resumen_anual_sbo_y_alternativas.xlsx": {
       "hojas": {
@@ -87,7 +74,7 @@
         "Ambos sentidos total fuentes": 3072,
         "Por sentido total fuentes": 5760
       },
-      "bytes": 2334267
+      "bytes": 2311806
     },
     "03_resultados_zonificacion_anterior/02_resumen_estacional_sbo_y_alternativas.xlsx": {
       "hojas": {
@@ -96,37 +83,37 @@
         "Ambos sentidos total fuentes": 8832,
         "Por sentido total fuentes": 17280
       },
-      "bytes": 7172671
+      "bytes": 7115125
     },
     "03_resultados_zonificacion_anterior/03_matrices_od_anuales.xlsx": {
       "hojas": {
         "Por fuente": 24000,
         "Total fuentes": 21312
       },
-      "bytes": 5644782
+      "bytes": 5627811
     },
     "03_resultados_zonificacion_anterior/04_matrices_od_estacionales.xlsx": {
       "hojas": {
         "Por fuente": 47424,
         "Total fuentes": 42048
       },
-      "bytes": 11839172
+      "bytes": 11794859
     },
     "03_resultados_zonificacion_anterior/tablas_csv/demanda_por_modo_od_estacion_fuente_y_sentido.csv.gz": {
       "filas": 189696,
-      "bytes": 1347296
+      "bytes": 1341397
     },
     "03_resultados_zonificacion_anterior/tablas_csv/demanda_por_modo_od_estacion_total_fuentes_y_sentido.csv.gz": {
       "filas": 168192,
-      "bytes": 1250450
+      "bytes": 1245416
     },
     "03_resultados_zonificacion_anterior/tablas_csv/demanda_por_modo_anual_por_fuente_y_sentido.csv.gz": {
       "filas": 29184,
-      "bytes": 179815
+      "bytes": 176922
     },
     "03_resultados_zonificacion_anterior/tablas_csv/demanda_por_modo_anual_total_fuentes_y_sentido.csv.gz": {
       "filas": 23040,
-      "bytes": 153456
+      "bytes": 151486
     },
     "03_resultados_zonificacion_anterior/05_demanda_por_modo.xlsx": {
       "hojas": {
@@ -135,55 +122,55 @@
         "Estacional central por fuente": 3648,
         "Estacional central total fuentes": 2880
       },
-      "bytes": 4389791
+      "bytes": 4373537
     },
     "04_resultados_zonificacion_localidades/tablas_csv/resumen_anual_por_fuente_ambos_sentidos.csv.gz": {
       "filas": 3840,
-      "bytes": 54022
+      "bytes": 53942
     },
     "04_resultados_zonificacion_localidades/tablas_csv/resumen_anual_por_fuente_y_sentido.csv.gz": {
       "filas": 7296,
-      "bytes": 109735
+      "bytes": 107157
     },
     "04_resultados_zonificacion_localidades/tablas_csv/resumen_anual_total_fuentes_ambos_sentidos.csv.gz": {
       "filas": 3072,
-      "bytes": 44661
+      "bytes": 44699
     },
     "04_resultados_zonificacion_localidades/tablas_csv/resumen_anual_total_fuentes_por_sentido.csv.gz": {
       "filas": 5760,
-      "bytes": 99090
+      "bytes": 96222
     },
     "04_resultados_zonificacion_localidades/tablas_csv/resumen_estacional_por_fuente_ambos_sentidos.csv.gz": {
       "filas": 11136,
-      "bytes": 177866
+      "bytes": 177888
     },
     "04_resultados_zonificacion_localidades/tablas_csv/resumen_estacional_por_fuente_y_sentido.csv.gz": {
       "filas": 21888,
-      "bytes": 525310
+      "bytes": 517643
     },
     "04_resultados_zonificacion_localidades/tablas_csv/resumen_estacional_total_fuentes_ambos_sentidos.csv.gz": {
       "filas": 8832,
-      "bytes": 160339
+      "bytes": 160527
     },
     "04_resultados_zonificacion_localidades/tablas_csv/resumen_estacional_total_fuentes_por_sentido.csv.gz": {
       "filas": 17280,
-      "bytes": 489318
+      "bytes": 482760
     },
     "04_resultados_zonificacion_localidades/tablas_csv/matrices_od_anuales_por_fuente_y_sentido.csv.gz": {
       "filas": 39744,
-      "bytes": 812549
+      "bytes": 805618
     },
     "04_resultados_zonificacion_localidades/tablas_csv/matrices_od_anuales_total_fuentes_por_sentido.csv.gz": {
       "filas": 36672,
-      "bytes": 800500
+      "bytes": 793362
     },
     "04_resultados_zonificacion_localidades/tablas_csv/matrices_od_estacionales_por_fuente_y_sentido.csv.gz": {
       "filas": 77760,
-      "bytes": 1800136
+      "bytes": 1784181
     },
     "04_resultados_zonificacion_localidades/tablas_csv/matrices_od_estacionales_total_fuentes_por_sentido.csv.gz": {
       "filas": 72768,
-      "bytes": 1780302
+      "bytes": 1764234
     },
     "04_resultados_zonificacion_localidades/01_resumen_anual_sbo_y_alternativas.xlsx": {
       "hojas": {
@@ -192,7 +179,7 @@
         "Ambos sentidos total fuentes": 3072,
         "Por sentido total fuentes": 5760
       },
-      "bytes": 2336722
+      "bytes": 2314074
     },
     "04_resultados_zonificacion_localidades/02_resumen_estacional_sbo_y_alternativas.xlsx": {
       "hojas": {
@@ -201,37 +188,37 @@
         "Ambos sentidos total fuentes": 8832,
         "Por sentido total fuentes": 17280
       },
-      "bytes": 7174314
+      "bytes": 7117364
     },
     "04_resultados_zonificacion_localidades/03_matrices_od_anuales.xlsx": {
       "hojas": {
         "Por fuente": 39744,
         "Total fuentes": 36672
       },
-      "bytes": 10352838
+      "bytes": 10317905
     },
     "04_resultados_zonificacion_localidades/04_matrices_od_estacionales.xlsx": {
       "hojas": {
         "Por fuente": 77760,
         "Total fuentes": 72768
       },
-      "bytes": 20355725
+      "bytes": 20279534
     },
     "04_resultados_zonificacion_localidades/tablas_csv/demanda_por_modo_od_estacion_fuente_y_sentido.csv.gz": {
       "filas": 311040,
-      "bytes": 3327129
+      "bytes": 3315409
     },
     "04_resultados_zonificacion_localidades/tablas_csv/demanda_por_modo_od_estacion_total_fuentes_y_sentido.csv.gz": {
       "filas": 291072,
-      "bytes": 3187524
+      "bytes": 3189941
     },
     "04_resultados_zonificacion_localidades/tablas_csv/demanda_por_modo_anual_por_fuente_y_sentido.csv.gz": {
       "filas": 29184,
-      "bytes": 179643
+      "bytes": 176770
     },
     "04_resultados_zonificacion_localidades/tablas_csv/demanda_por_modo_anual_total_fuentes_y_sentido.csv.gz": {
       "filas": 23040,
-      "bytes": 153443
+      "bytes": 151437
     },
     "04_resultados_zonificacion_localidades/05_demanda_por_modo.xlsx": {
       "hojas": {
@@ -240,9 +227,8 @@
         "Estacional central por fuente": 3648,
         "Estacional central total fuentes": 2880
       },
-      "bytes": 4399382
+      "bytes": 4383052
     }
   },
-  "segundos": 697.61,
-  "formato_excel": "Anchos explícitos, encabezados con ajuste de línea, filtros y panel inmovilizado."
+  "segundos": 83.05
 }
