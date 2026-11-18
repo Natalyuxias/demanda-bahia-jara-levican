@@ -41,6 +41,6 @@ Las alternativas de proyecto tienen resultados para sus 720 estados configurados
 
 ## Distribución y reproducción
 
-Esta entrega contiene resultados OD agregados y no incorpora encuestas individuales, coordenadas ni originales de consultoras. La versión completa conserva desagregaciones de baja frecuencia y se prepara para distribución privada. Una publicación abierta requiere revisar el nivel de agregación de esas matrices.
+Esta versión está preparada para un repositorio público de resultados OD agregados, metodología y código. No incorpora encuestas individuales, coordenadas ni originales de consultoras. Algunas celdas se apoyan en muestras reducidas; los resultados son estimaciones del modelo y mantienen las limitaciones de cobertura y precisión documentadas.
 
 Los insumos privados están inventariados mediante nombres y SHA-256. El código de exportación permite reconstruir las tablas a partir del detalle validado; la reproducción de la estimación requiere restituir las fuentes privadas. El visor geográfico no forma parte de esta versión.

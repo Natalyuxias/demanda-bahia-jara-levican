@@ -12,4 +12,4 @@ Los informes `comparacion_solo_zonas.json`, `verificacion_PIB.json`, `control_es
 
 `control_sensibilidades_previstas.json` distingue sensibilidades calculadas de pruebas pendientes. Los estados no calculados no constituyen demanda cero. Los controles de consistencia no certifican representatividad estadística ni cobertura completa del mercado.
 
-Las 720 combinaciones configuradas corresponden a las alternativas de proyecto. La SBO se agrega como referencia independiente, sin repetirla por los casos de captación e inducción. El perfil de distribución completo es privado, por la presencia de matrices OD de baja frecuencia.
+Las 720 combinaciones configuradas corresponden a las alternativas de proyecto. La SBO se agrega como referencia independiente, sin repetirla por los casos de captación e inducción. El perfil de distribución es público y contiene resultados agregados. Los registros individuales, coordenadas y originales permanecen fuera del repositorio. Las celdas con base reducida conservan la incertidumbre de las fuentes.

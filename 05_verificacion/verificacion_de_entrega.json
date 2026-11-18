@@ -1,6 +1,6 @@
 {
   "estado": "correcto",
-  "perfil_distribucion": "entrega completa para repositorio privado; no publicación remota",
+  "perfil_distribucion": "repositorio público de resultados agregados; no incluye microdatos",
   "verificaciones": {
     "control_exportacion.json_controles": true,
     "control_zonas.json_controles": true,
@@ -21,5 +21,5 @@
   "CSV_verificados": 37,
   "maximo_archivo_bytes": 20355725,
   "campos_prohibidos_detectados": [],
-  "alcance": "Comprueba integridad de libros, columnas, estructura, exclusión de insumos y controles de agregación. Las matrices OD pueden contener desagregaciones de baja frecuencia: esta validación no autoriza difusión pública de esas celdas ni completa sensibilidades pendientes."
+  "alcance": "Comprueba integridad de libros, columnas, estructura, exclusión de insumos y controles de agregación. Las matrices OD pueden contener desagregaciones de baja frecuencia. Esta validación no certifica precisión estadística ni completa sensibilidades pendientes."
 }

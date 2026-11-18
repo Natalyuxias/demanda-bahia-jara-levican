@@ -23,4 +23,4 @@ Para reproducir esta etapa deben restaurarse los archivos de referencia privados
 python 06_codigo/verificar_entrega.py
 ```
 
-El verificador revisa la integridad de los libros, las columnas, las exclusiones de datos privados y los controles de agregación; actualiza el inventario de archivos. La validación se refiere a la versión completa de distribución privada y no sustituye una revisión de celdas de baja frecuencia para difusión abierta.
+El verificador revisa la integridad de los libros, las columnas, las exclusiones de datos privados y los controles de agregación; actualiza el inventario de archivos. La validación se refiere a la distribución pública de resultados agregados. No certifica representatividad estadística, precisión de celdas con base reducida ni cobertura completa del mercado.
